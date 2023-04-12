@@ -1,0 +1,93 @@
+.successContainer {
+  margin-top: 5rem;
+}
+
+.successContainer h1 {
+  color: var(--brand-yellow-dark);
+  font-size: 2rem;
+}
+
+.successContainer>p {
+  color: var(--base-subtitle);
+  font-size: 1.5rem;
+  margin-top: .25rem;
+}
+
+.successContainer>div {
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.successContainer>div img {
+  margin-left: 2rem;
+  height: 18.3125rem;
+}
+
+.gradientBorder {
+  margin-right: auto;
+  height: 16.875rem;
+  max-width: 32.875rem;
+
+  background: linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(120deg, #DBAC2C, #8047F8) border-box;
+  border-radius: 6px 36px 6px 36px;
+
+  /* background-image: linear-gradient(#fff, #fff), linear-gradient(135deg, #DBAC2C, #8047F8);   RESULTADO DA SHORTHAND ACIMA
+  background-position: center, center;
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box; */
+
+  padding: 2.5rem;
+  border: 1px solid transparent;
+
+  display: grid;
+  grid-template-columns: 2.75rem 1fr;
+  grid-template-rows: repeat(3, 2.5rem);
+  row-gap: 2rem;
+  align-items: center;
+}
+
+.gradientBorder svg {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 1rem;
+  padding: .5rem;
+  color: var(--base-background);
+}
+
+.gradientBorder div {
+  /* width: 100%; */
+}
+
+@media (max-width: 1100px) {
+  .successContainer>div img {
+    height: 12rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .successContainer {
+    margin-top: 1rem;
+  }
+
+  .successContainer>div {
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+  }
+
+  .gradientBorder {
+    margin-right: 0;
+    min-width: 10rem;
+    grid-template-columns: 2.75rem auto;
+  }
+
+  .gradientBorder div {
+    min-width: 10rem;
+  }
+
+  .successContainer>div img {
+    margin-left: 0;
+  }
+}

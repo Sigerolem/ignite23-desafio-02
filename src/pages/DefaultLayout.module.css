@@ -1,0 +1,19 @@
+.defaultLayout {
+  height: 100svh;
+  width: 100%;
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 0 10rem;
+}
+
+@media (max-width: 1400px) {
+  .defaultLayout {
+    padding: 0 4rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .defaultLayout {
+    padding: 0 1rem;
+  }
+}
