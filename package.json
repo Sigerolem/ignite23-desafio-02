@@ -1,11 +1,11 @@
 {
-  "name": "desafio-02",
+  "name": "ignite23-desafio-02",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build --base=/ignite23-desafio-02/",
     "preview": "vite preview"
   },
   "dependencies": {
