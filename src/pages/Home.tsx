@@ -5,7 +5,7 @@ import { CoffeeInfo, MenuCard } from '../components/MenuCard'
 const coffees: CoffeeInfo[] = [
   {
     id: 'expresso-tradicional',
-    imgSrc: '/src/assets/coffees/expresso-tradicional.png',
+    imgSrc: 'coffees/expresso-tradicional.png',
     name: 'Expresso Tradicional',
     description: 'O tradicional café feito com água quente e grãos moídos',
     price: 990,
@@ -13,7 +13,7 @@ const coffees: CoffeeInfo[] = [
   },
   {
     id: 'expresso-americano',
-    imgSrc: '/src/assets/coffees/expresso-americano.png',
+    imgSrc: 'coffees/expresso-americano.png',
     name: 'Expresso Americano',
     description: 'Expresso diluído, menos intenso que o tradicional',
     price: 990,
@@ -21,7 +21,7 @@ const coffees: CoffeeInfo[] = [
   },
   {
     id: 'expresso-cremoso',
-    imgSrc: '/src/assets/coffees/expresso-cremoso.png',
+    imgSrc: 'coffees/expresso-cremoso.png',
     name: 'Expresso Cremoso',
     description: 'Café expresso tradicional com espuma cremosa',
     price: 990,
@@ -29,7 +29,7 @@ const coffees: CoffeeInfo[] = [
   },
   {
     id: 'expresso-gelado',
-    imgSrc: '/src/assets/coffees/expresso-gelado.png',
+    imgSrc: 'coffees/expresso-gelado.png',
     name: 'Expresso Gelado',
     description: 'Bebida preparada com café expresso e cubos de gelo',
     price: 990,
@@ -37,7 +37,7 @@ const coffees: CoffeeInfo[] = [
   },
   {
     id: 'cafe-com-leite',
-    imgSrc: '/src/assets/coffees/cafe-com-leite.png',
+    imgSrc: 'coffees/cafe-com-leite.png',
     name: 'Café com Leite',
     description: 'Meio a meio de expresso tradicional com leite vaporizado',
     price: 990,
@@ -45,7 +45,7 @@ const coffees: CoffeeInfo[] = [
   },
   {
     id: 'latte',
-    imgSrc: '/src/assets/coffees/latte.png',
+    imgSrc: 'coffees/latte.png',
     name: 'Latte',
     description: 'Uma dose de café expresso com o dobro de leite e espuma cremosa',
     price: 990,
@@ -53,7 +53,7 @@ const coffees: CoffeeInfo[] = [
   },
   {
     id: 'capuccino',
-    imgSrc: '/src/assets/coffees/capuccino.png',
+    imgSrc: 'coffees/capuccino.png',
     name: 'Capuccino',
     description: 'Bebida com canela feita com doses iguais de café, leite e espuma',
     price: 990,
@@ -61,7 +61,7 @@ const coffees: CoffeeInfo[] = [
   },
   {
     id: 'macchiato',
-    imgSrc: '/src/assets/coffees/macchiato.png',
+    imgSrc: 'coffees/macchiato.png',
     name: 'Macchiato',
     description: 'Café expresso misturado com um pouco de leite quente e espuma',
     price: 990,
@@ -69,7 +69,7 @@ const coffees: CoffeeInfo[] = [
   },
   {
     id: 'mocaccino',
-    imgSrc: '/src/assets/coffees/mocaccino.png',
+    imgSrc: 'coffees/mocaccino.png',
     name: 'Moacccino',
     description: 'Café expresso com calda de chocolate, pouco de leite e espuma',
     price: 990,
@@ -77,7 +77,7 @@ const coffees: CoffeeInfo[] = [
   },
   {
     id: 'chocolate-quente',
-    imgSrc: '/src/assets/coffees/chocolate-quente.png',
+    imgSrc: 'coffees/chocolate-quente.png',
     name: 'Chocolate Quente',
     description: 'Bebida feita com chocolate dissolvido no leite quente e café',
     price: 990,
@@ -85,7 +85,7 @@ const coffees: CoffeeInfo[] = [
   },
   {
     id: 'havaiano',
-    imgSrc: '/src/assets/coffees/havaiano.png',
+    imgSrc: 'coffees/havaiano.png',
     name: 'Havaiano',
     description: 'Bebida adocicada preparada com café e leite de coco',
     price: 990,
@@ -93,7 +93,7 @@ const coffees: CoffeeInfo[] = [
   },
   {
     id: 'arabe',
-    imgSrc: '/src/assets/coffees/arabe.png',
+    imgSrc: 'coffees/arabe.png',
     name: 'Árabe',
     description: 'Bebida preparada com grãos de café árabe e especiarias',
     price: 990,
@@ -101,7 +101,7 @@ const coffees: CoffeeInfo[] = [
   },
   {
     id: 'cubano',
-    imgSrc: '/src/assets/coffees/cubano.png',
+    imgSrc: 'coffees/cubano.png',
     name: 'Cubano',
     description: 'Drink gelado de café expresso com rum, creme de leite e hortelã',
     price: 990,
@@ -109,7 +109,7 @@ const coffees: CoffeeInfo[] = [
   },
   {
     id: 'irlandes',
-    imgSrc: '/src/assets/coffees/irlandes.png',
+    imgSrc: 'coffees/irlandes.png',
     name: 'Irlandês',
     description: 'Bebida a base de café, úisque irlandês, açúcar e chantily',
     price: 990,
@@ -144,7 +144,7 @@ export function Home() {
             </div>
           </div>
         </div>
-        <img src="/src/assets/coffee-banner.png" alt="Imagem de um copo de cafe com grãos de café ao fundo" />
+        <img src="coffee-banner.png" alt="Imagem de um copo de cafe com grãos de café ao fundo" />
       </section>
       <section className={styles.coffeMenu} >
         <h2>Nossos cafés</h2>

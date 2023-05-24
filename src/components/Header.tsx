@@ -10,7 +10,7 @@ export function Header() {
 
   return (
     <header className={styles.header} >
-      <NavLink to={"/"} >
+      <NavLink to={""} >
         <img src={logoSvg} alt="Logotipo da marca com um copo de café" title="Coffee Delivery" />
       </NavLink>
 
@@ -19,7 +19,7 @@ export function Header() {
           <MapPin weight='fill' size={22} />
           <span>Porto Alegre, RS</span>
         </button>
-        <NavLink to={"/checkout"}>
+        <NavLink to={"checkout"}>
           <button>
 
             <ShoppingCart weight='fill' size={22} />

@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from 'react'
-import { Navigate, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { Bank, CreditCard, CurrencyDollar, MapPinLine, Money } from 'phosphor-react'
 import { FormProvider, useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
@@ -50,14 +50,14 @@ export function Checkout() {
 
   useEffect(() => {
     if (cartItems.length === 0) {
-      navigate('/')
+      navigate('../')
     }
   }, [cartItems])
 
   function submitForm(data: AddressFormData) {
     const paymentMethods = ['Cartão de Crédito', 'Cartão de Débito', 'Dinheiro']
     confirmPurchase(data, paymentMethods[selectedPayment])
-    navigate('/checkout/success')
+    navigate('success')
     clearCart()
   }
 

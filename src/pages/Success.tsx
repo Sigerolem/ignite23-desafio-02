@@ -36,7 +36,7 @@ export function Success() {
             <p><strong>{paymentMethod}</strong></p>
           </div>
         </div>
-        <img src="/src/assets/success-banner.png" alt="Imagem de um entregadore em uma motoneta" />
+        <img src="../success-banner.png" alt="Imagem de um entregadore em uma motoneta" />
       </div>
     </main>
   )
